@@ -21,7 +21,7 @@ def plot_regression_line( x,y, b):
 
 def main():
     x = np.random.rand(50)
-    y = 5 * x + 2 + np.random.randn(50) * 0.1
+    y = 5 * x + 1 + np.random.randn(50) * 0.1
     b = coef_estimation(x,y)
     print("Estimated coefficients:\nreg_b_0 = {} \nreg_b_1 ={}".format(b[0],b[1]))
     plot_regression_line(x,y,b)
