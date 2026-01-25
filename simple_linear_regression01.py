@@ -1,18 +1,19 @@
 #Importing necessary packages
 import numpy as np
 import matplotlib.pyplot as plt
+# on se base sur y = b0 + b1*x
 
 def coef_estimation( x,y ):
     n = np.size(x)
     mean_x, mean_y= np.mean(x), np.mean(y)
     cross_xy = np.sum(y*x) - n*mean_x*mean_y
     cross_xx = np.sum(x*x) - n*mean_x*mean_x
-    reg_b_1 = cross_xy/cross_xx
-    reg_b_0 = mean_y - reg_b_1*mean_x
+    reg_b_1 = cross_xy/cross_xx # c'est b1
+    reg_b_0 = mean_y - reg_b_1*mean_x # # c'est b0
     return reg_b_0, reg_b_1
 
 def plot_regression_line( x,y, b):
-    plt.scatter(x,y, color = 'red', marker = 'o', s = 70)
+    plt.scatter(x,y, color = 'red', marker = 'x', s = 70)
     y_pred = b[0] + b[1]*x
     plt.plot(x,y_pred, color = 'blue')
     plt.xlabel('x')

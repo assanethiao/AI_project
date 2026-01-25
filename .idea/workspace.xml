@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fa92ade-8ba3-4628-a546-d7ebebc06122" name="Changes" comment="Implementing simple linear regression in Python">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simple_linear_regression01.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple_linear_regression01.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +108,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1769300268753</updated>
-      <workItem from="1769300269796" duration="2836000" />
+      <workItem from="1769300269796" duration="3058000" />
     </task>
     <task id="LOCAL-00001" summary="Implementing simple linear regression in Python">
       <option name="closed" value="true" />
@@ -151,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769302818027</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Implementing simple linear regression in Python">
+      <option name="closed" value="true" />
+      <created>1769303163994</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1769303163994</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +180,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Implementing simple linear regression in Python" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonProject$main.coverage" NAME="simple_linear_regression01 Coverage Results" MODIFIED="1769303123120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$main.coverage" NAME="simple_linear_regression01 Coverage Results" MODIFIED="1769303135831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
